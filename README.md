@@ -55,7 +55,7 @@ BASE URL: https://webkiosk-juit.herokuapp.com/
   Get the list of registered subjects for a given semester
 
 
-## Eamples
+## Examples
 
 - ### Subject Faculty
 **Endpoint:**      
