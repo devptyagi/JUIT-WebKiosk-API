@@ -10,7 +10,8 @@ A __working api__ for accessing JUIT WebKiosk Data. Created using Java Spring Bo
 **(Source Code will be made public later)**       
 
 
-BASE URL: https://webkiosk-juit.herokuapp.com/
+BASE URL: https://webkiosk-juit.herokuapp.com/     
+(Hosted on a Free Heroky Dyno, might take 8-10 seconds for the first API call)
 
 ### Required request body
 ```
