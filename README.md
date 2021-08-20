@@ -58,7 +58,7 @@ BASE URL: http://172.105.35.94/
 
 - ### Subject Faculty
 **Endpoint:**      
-```https://webkiosk-juit.herokuapp.com/api/subjectFaculty```      
+```http://172.105.35.94/api/subjectFaculty```      
 **Request:**     
  ```curl -X POST "https://webkiosk-juit.herokuapp.com/api/subjectFaculty" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```           
 **Response:**
@@ -132,7 +132,7 @@ BASE URL: http://172.105.35.94/
 
 - ### Attendance
 **Endpoint:**      
-```https://webkiosk-juit.herokuapp.com/api/attendance```  
+```http://172.105.35.94/api/attendance```  
 **Request:**       
  ```curl -X POST "https://webkiosk-juit.herokuapp.com/api/attendance" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```       
 **Response:**       
@@ -224,5 +224,5 @@ BASE URL: http://172.105.35.94/
 
 ## Full Documentation
 
-Read the full documentation [here.](https://webkiosk-juit.herokuapp.com/)  
+Read the full documentation [here.](http://172.105.35.94/)  
 
