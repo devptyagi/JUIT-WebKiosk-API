@@ -56,7 +56,7 @@ BASE URL: http://172.105.35.94/
 
 ## Examples
 
-- ### Subject Faculty
+- ### Subject Faculty.
 **Endpoint:**      
 ```http://172.105.35.94/api/subjectFaculty```      
 **Request:**     
@@ -222,7 +222,7 @@ BASE URL: http://172.105.35.94/
 ]
   ```
 
-## Full Documentation
+## Full Documentation.
 
 Read the full documentation [here.](http://172.105.35.94/)  
 
