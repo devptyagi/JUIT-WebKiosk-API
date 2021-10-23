@@ -10,7 +10,7 @@ A __working api__ for accessing JUIT WebKiosk Data. Created using Java Spring Bo
 **(Source Code will be made public later)**       
 
 
-BASE URL: http://172.105.35.94/    
+BASE URL: http://juit-webkiosk.herokuapp.com/    
 
 ### Required request body
 ```
@@ -58,9 +58,9 @@ BASE URL: http://172.105.35.94/
 
 - ### Subject Faculty.
 **Endpoint:**      
-```http://172.105.35.94/api/subjectFaculty```      
+```http://juit-webkiosk.herokuapp.com/api/subjectFaculty```      
 **Request:**     
- ```curl -X POST "https://webkiosk-juit.herokuapp.com/api/subjectFaculty" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```           
+ ```curl -X POST "https://juit-webkiosk.herokuapp.com/api/subjectFaculty" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```           
 **Response:**
   ```
   [
@@ -132,9 +132,9 @@ BASE URL: http://172.105.35.94/
 
 - ### Attendance
 **Endpoint:**      
-```http://172.105.35.94/api/attendance```  
+```http://juit-webkiosk.herokuapp.com/api/attendance```  
 **Request:**       
- ```curl -X POST "https://webkiosk-juit.herokuapp.com/api/attendance" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```       
+ ```curl -X POST "https://juit-webkiosk.herokuapp.com/api/attendance" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```       
 **Response:**       
   ```
   [
