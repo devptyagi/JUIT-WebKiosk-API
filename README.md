@@ -224,5 +224,5 @@ BASE URL: http://juit-webkiosk.herokuapp.com/
 
 ## Full Documentation.
 
-Read the full documentation [here.](http://172.105.35.94/)  
+Read the full documentation [here.](http://juit-webkiosk.herokuapp.com/)  
 
