@@ -10,10 +10,8 @@ A __working api__ for accessing JUIT WebKiosk Data. Created using Java Spring Bo
 **(Source Code will be made public later)**       
 
 
-BASE URL: http://juit-webkiosk.herokuapp.com/    
+BASE URL: https://juitwebkiosk.co/   
 
-**NOTE:**
-(Hosted on a free heroku dyno, might take upto 10-15 seconds when you hit the API for the first time)
 
 ### Required request body
 ```
@@ -61,9 +59,9 @@ BASE URL: http://juit-webkiosk.herokuapp.com/
 
 - ### Subject Faculty.
 **Endpoint:**      
-```http://juit-webkiosk.herokuapp.com/api/subjectFaculty```      
+```https://juitwebkiosk.co/api/subjectFaculty```      
 **Request:**     
- ```curl -X POST "https://juit-webkiosk.herokuapp.com/api/subjectFaculty" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```           
+ ```curl -X POST "https://juitwebkiosk.co/api/subjectFaculty" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```           
 **Response:**
   ```
   [
@@ -135,9 +133,9 @@ BASE URL: http://juit-webkiosk.herokuapp.com/
 
 - ### Attendance
 **Endpoint:**      
-```http://juit-webkiosk.herokuapp.com/api/attendance```  
+```https://juitwebkiosk.co/api/attendance```  
 **Request:**       
- ```curl -X POST "https://juit-webkiosk.herokuapp.com/api/attendance" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```       
+ ```curl -X POST "https://juitwebkiosk.co/api/attendance" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"enrollmentNumber\": \"191306\", \"password\": \"XXXXXXXX\"}"```       
 **Response:**       
   ```
   [
@@ -227,5 +225,5 @@ BASE URL: http://juit-webkiosk.herokuapp.com/
 
 ## Full Documentation.
 
-Read the full documentation [here.](http://juit-webkiosk.herokuapp.com/)  
+Read the full documentation [here.](https://juitwebkiosk.co/)  
 
